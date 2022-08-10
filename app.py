@@ -1,5 +1,6 @@
 import wikipedia
 import transformers
+import torch
 import streamlit as st
 from transformers import pipeline, Pipeline
 
@@ -49,3 +50,13 @@ def main():
         st.write(answer)
 if __name__ == '__main__':
     main()
+
+
+# To deploy it. pipreqs ./ --ignore Kristof_environment
+# creates a requirement.txt file
+
+# pip install pipreqs 
+
+# if you need to add something to requirements afterwards,
+# , pipreqs ./ --ignore Kristof_environment -- force
+# it will redo the text file.
