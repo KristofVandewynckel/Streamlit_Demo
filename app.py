@@ -60,3 +60,5 @@ if __name__ == '__main__':
 # if you need to add something to requirements afterwards,
 # , pipreqs ./ --ignore Kristof_environment -- force
 # it will redo the text file.
+
+# Lottie files adds animation to your project
